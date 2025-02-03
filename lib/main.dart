@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:nomad_challenge_04/screens/home_screen.dart';
+import 'package:nomad_challenge_04/screens/lecture/bottom_navigationbar.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: HomeScreen(),
+      home: BottomNavigationbarScreen(),
     );
   }
 }
